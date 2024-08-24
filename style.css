@@ -13,7 +13,7 @@ font-family: "Questrial", sans-serif;
 .first-banner{
     background-image: url(images/first.png);
     height: 683px;
-    width:100%;
+    width:1440px;
     margin-bottom: 20px;
 }
 
@@ -245,3 +245,43 @@ font-family: "Questrial", sans-serif;
     margin: 40px 0px 40px 0px;
 }
 
+@media screen and(max-width:992px) {
+    .first-banner{
+        width: 100%;
+    }
+}
+@media screen and(max-width:600px) {
+    .first-banner{
+        width: 100%;
+    }
+}
+@media screen and(max-width:992px) {
+    .second-banner{
+        width: 100%;
+    }
+}
+@media screen and(max-width:600px) {
+    .second-banner{
+        width: 100%;
+    }
+}
+@media screen and(max-width:992px) {
+    .third-banner{
+        width: 100%;
+    }
+}
+@media screen and(max-width:600px) {
+    .third-banner{
+        width: 100%;
+    }
+}
+@media screen and(max-width:992px) {
+    .last-banner{
+        width: 100%;
+    }
+}
+@media screen and(max-width:600px) {
+    .last-banner{
+        width: 100%;
+    }
+}
